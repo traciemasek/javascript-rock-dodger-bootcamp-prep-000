@@ -102,7 +102,10 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-   if 
+   if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
+     
+     
+   } 
      if(e.which === LEFT_ARROW) {
        moveDodgerLeft();
      }
