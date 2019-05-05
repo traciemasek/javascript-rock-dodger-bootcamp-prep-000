@@ -82,7 +82,7 @@ function endGame() {
   
   ROCKS.length = 0;
   
-  DODGER.removeEventListener('keydown', '');
+  DODGER.removeEventListener('keydown', 'moveDodger');
   alert("YOU LOSE!")
 }
 
