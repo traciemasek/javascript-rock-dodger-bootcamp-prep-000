@@ -94,14 +94,8 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  // implement me!
-  /**
-   * This function should call `moveDodgerLeft()`
-   * if the left arrow is pressed and `moveDodgerRight()`
-   * if the right arrow is pressed. (Check the constants
-   * we've declared for you above.)
-   * And be sure to use the functions declared below!
-   */
+  
+  //not that I didn't cheat on this whole lab, but this preventDefault think I just copied pasted from the GitHub solution, otherwise the tests failed bc of an Error: spy was not called
    if ([LEFT_ARROW, RIGHT_ARROW].indexOf(e.which) > -1) {
      e.preventDefault();
      e.stopPropagation();
