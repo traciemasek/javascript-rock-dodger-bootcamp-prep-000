@@ -66,11 +66,8 @@ function createRock(x) {
 
   window.requestAnimationFrame(moveRock)
 
-  // Add the rock to ROCKS so that we can remove all rocks
-  // when there's a collision
   ROCKS.push(rock)
 
-  // Finally, return the rock element you've created
   return rock
 } //closing brace of createRock function
 
