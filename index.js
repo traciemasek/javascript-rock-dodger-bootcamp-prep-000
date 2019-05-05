@@ -81,7 +81,7 @@ function endGame() {
   clearInterval(gameInterval);
   
   //ROCKS.length = 0; i think this would work?
-  ROCKS.foreach((rock) => {
+  ROCKS.foreach(function(rock) {
     rock.remove()
   })
   
