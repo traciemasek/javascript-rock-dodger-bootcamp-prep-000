@@ -87,8 +87,8 @@ function endGame() {
   
   document.removeEventListener('keydown', 'moveDodger');
   
-  //START.innerHTML = 'Play again?'
-  //START.style.display = 'inline'
+  START.innerHTML = 'Play again?'
+  START.style.display = 'inline'
   
   return alert("YOU LOSE!")
 }
