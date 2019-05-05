@@ -71,7 +71,7 @@ function createRock(x) {
       rock.remove()
     }
    
-  }
+  } //closing brace for moveRock function
 
   // We should kick of the animation of the rock around here
 
